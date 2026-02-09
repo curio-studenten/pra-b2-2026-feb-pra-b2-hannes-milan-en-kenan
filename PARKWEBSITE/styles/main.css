@@ -100,6 +100,28 @@ article{
 article:last-of-type{
   margin-right: 0;
 }
+/* Stijl voor het 'Koop nu je tickets' deel */
+.emphasize {
+  border-left: 5px solid #27AE60;   
+  box-shadow: 1px 0 5px #27AE60;  
+  padding: 1em;                     
+}
+
+/* h2 binnen .emphasize */
+.emphasize h2 {
+  margin: 0;                       
+  border-left: none;                
+  text-align: center;              
+}
+/* H2 kopjes in articles beter leesbaar maken met witte omlijning */
+article h2 {
+  text-shadow: 
+      0 0 0 #FCFCFC,
+      -1px -1px 0 #FCFCFC,  
+      1px -1px 0 #FCFCFC,
+      -1px 1px 0 #FCFCFC,
+      1px 1px 0 #FCFCFC;
+}
 
 article h2{
   margin: 0;
