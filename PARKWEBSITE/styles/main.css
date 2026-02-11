@@ -209,6 +209,16 @@ footer{
 
 }
 
+.hyperlink a{
+  color: black;
+  text-decoration: none;
+}
+
+.hyperlink a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
 button {
   cursor: pointer;
 }
@@ -245,12 +255,14 @@ button {
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src: url('../fonts/heartbeat.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/heartbeat.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/heartbeat.woff') format('woff'),
+       url('../fonts/heartbeat.ttf') format('truetype'),
+       url('../fonts/heartbeat.otf') format('opentype'),
+       url('../fonts/heartbeat.svg#Heartbeat') format('svg');
 }
+
 
 /*
   Animations for fading in logo on page load
