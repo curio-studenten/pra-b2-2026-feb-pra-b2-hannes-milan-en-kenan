@@ -209,6 +209,15 @@ footer{
 
 }
 
+.hyperlink a{
+  color: black;
+  text-decoration: none;
+}
+
+.hyperlink a:hover{
+  color: white;
+  transition: 0.2s;
+}
 
 button {
   cursor: pointer;
