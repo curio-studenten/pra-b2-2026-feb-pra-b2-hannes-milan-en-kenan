@@ -205,6 +205,16 @@ footer{
   display: block;
 }
 
+.hyperlink a{
+  color: black;
+  text-decoration: none;
+}
+
+.hyperlink a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
