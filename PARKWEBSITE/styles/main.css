@@ -200,14 +200,15 @@ footer{
 @media (max-width: 480px) {
 
   .hidden-on-lg {
-    display: block;
+    display: block !important;
   }
 
   .hidden-on-sm {
-    display: none;
+    display: none !important;
   }
 
 }
+
 
 .hyperlink a{
   color: black;
