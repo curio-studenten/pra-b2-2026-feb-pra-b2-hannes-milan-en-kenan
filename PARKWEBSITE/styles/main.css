@@ -88,9 +88,15 @@ table th.slim{
   width: 100px;
 }
 
+table thead {
+  border-bottom: 1px solid #303030;
+}
+
 table tfoot{
   font-weight: bold;
 }
+
+
 
 article{
   border-left: 5px solid #27AE60;
@@ -197,18 +203,18 @@ footer{
 .copyright{
   text-align: center;
 }
+
 @media (max-width: 480px) {
 
   .hidden-on-lg {
-    display: block !important;
+    display: block;
   }
 
   .hidden-on-sm {
-    display: none !important;
+    display: none;
   }
 
 }
-
 
 .hyperlink a{
   color: black;
