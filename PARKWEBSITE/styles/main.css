@@ -188,6 +188,8 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-between  ;
 }
 
 .description{
@@ -204,17 +206,7 @@ footer{
   text-align: center;
 }
 
-@media (max-width: 480px) {
 
-  .hidden-on-lg {
-    display: block;
-  }
-
-  .hidden-on-sm {
-    display: none;
-  }
-
-}
 
 .hyperlink a{
   color: black;
@@ -257,6 +249,17 @@ button {
   }
 }
 
+@media (max-width: 480px) {
+
+  .hidden-on-lg {
+    display: block;
+  }
+
+  .hidden-on-sm {
+    display: none;
+  }
+
+}
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
