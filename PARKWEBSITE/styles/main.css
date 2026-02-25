@@ -207,7 +207,19 @@ footer{
   text-align: center;
 }
 
+.product-container{
+  width: 52%;
+  margin: 0 auto;
+}
 
+.product-content{
+  display: flex;
+}
+
+.product-text p{
+  margin: 0;
+  width: 100%;
+}
 
 .hyperlink a{
   color: black;
@@ -231,6 +243,22 @@ footer{
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+
+@media (max-width: 1100px) {
+  .product-content {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 140%;
+  }
+
+
+  .product-content img {
+    width: 100%;
+    max-width: 300px;
+    
+  }
+}
 
 @media (max-width: 1024px) {
   .logo{
