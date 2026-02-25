@@ -177,6 +177,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .row{
@@ -218,9 +219,6 @@ footer{
   transition: 0.2s;
 }
 
-button {
-  cursor: pointer;
-}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
